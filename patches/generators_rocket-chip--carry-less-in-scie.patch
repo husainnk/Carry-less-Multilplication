@@ -12,50 +12,76 @@ index ae99d189e..d301b6db2 100644
    useNMI: Boolean = false,
    nBreakpoints: Int = 1,
 diff --git a/src/main/scala/scie/SCIE.scala b/src/main/scala/scie/SCIE.scala
-index a9e46f51a..b00e597da 100644
+index a9e46f51a..b93abdfe6 100644
 --- a/src/main/scala/scie/SCIE.scala
 +++ b/src/main/scala/scie/SCIE.scala
-@@ -68,7 +68,7 @@ class SCIEUnpipelined(xLen: Int) extends BlackBox(Map("XLEN" -> xLen)) with HasB
-       |    input  [${SCIE.iLen-1}:0] insn,
-       |    input  [XLEN-1:0] rs1,
+@@ -70,32 +70,47 @@ class SCIEUnpipelined(xLen: Int) extends BlackBox(Map("XLEN" -> xLen)) with HasB
        |    input  [XLEN-1:0] rs2,
--      |    output [XLEN-1:0] rd);
-+      |    output [63:0] rd);
+       |    output [XLEN-1:0] rd);
        |
-       |  /* This example SCIE implementation provides the following instructions:
-       |
-@@ -81,18 +81,24 @@ class SCIEUnpipelined(xLen: Int) extends BlackBox(Map("XLEN" -> xLen)) with HasB
-       |     Funct3 = 1: MAXI (rd = rs1 > imm[11:0] ? rs1 : imm[11:0])
-       |  */
-       |
+-      |  /* This example SCIE implementation provides the following instructions:
+-      |
+-      |     Major opcode custom-0:
+-      |     Funct3 = 0: MIN (rd = rs1 < rs2 ? rs1 : rs2)
+-      |     Funct3 = 1: MAX (rd = rs1 > rs2 ? rs1 : rs2)
+-      |
+-      |     Major opcode custom-1:
+-      |     Funct3 = 0: MINI (rd = rs1 < imm[11:0] ? rs1 : imm[11:0])
+-      |     Funct3 = 1: MAXI (rd = rs1 > imm[11:0] ? rs1 : imm[11:0])
+-      |  */
+-      |
 -      |  /* Decode the instruction. */
 -      |  wire use_immediate = insn[5];
 -      |  wire pick_smaller = !insn[12];
--      |
++      |  reg [XLEN-1:0] result ;
++      |  wire [2:0] carry_mul_type  = insn[14:12] ;
++      |  wire [XLEN-1:0] op_a = rs1;
++      |  wire [XLEN-1:0] op_b = rs2;
++      |  integer i;
+       |
 -      |  /* Mux the operands. */
 -      |  wire [XLEN-1:0] immediate = {{(XLEN-12){insn[31]}},  insn[31:20]};
 -      |  wire [XLEN-1:0] rhs = use_immediate ? immediate : rs2;
-+      |  wire [XLEN-1:0] rhs = rs2;
-       |  wire [XLEN-1:0] lhs = rs1;
+-      |  wire [XLEN-1:0] lhs = rs1;
++      |  always@(rs2)
++      |  begin
        |
 -      |  /* Perform the computation. */
 -      |  wire lhs_smaller = $$signed(lhs) < $$signed(rhs);
 -      |  wire [XLEN-1:0] result = lhs_smaller == pick_smaller ? lhs : rhs;
-+      |  reg [63:0] result ;
-+      |
-+      |  integer i;
-+      |
-+      |   always@(rs2)
-+      |   begin
-+      |     result  = 0;  
-+      |     for(i=0;i<32;i=i+1)   //check for all the bits.
-+      |     begin
-+      |             if(rs2[i] == 1'b1)    //check if the bit is '1'
-+      |             begin
-+      |                     result = result ^ (lhs << i) ;
-+      |             end 
-+      |     end 
-+      |   end 
++      |  result  = 0;
++      |  case(carry_mul_type)
++      |  3'h0:
++      |  begin
++      |        /* 32-bit Lower */
++      |        for ( i = 0; i < 32; i++)
++      |        begin
++      |          if(rs2[i] == 1'b1)
++      |          begin
++      |                  result = result ^ (op_a << i); 
++      |          end
++      |        end
++      |  end          
++      |  3'h1:
++      |  begin
++      |        /* 32-bit Higher */
++      |        for ( i = 1; i < 32; i++)
++      |        begin
++      |          if(rs2[i] == 1'b1)
++      |          begin
++      |                  result = result ^ (op_a >> (32 - i)); 
++      |          end
++      |        end
++      |  end       
++      |  default:
++      |         result = 64'hf;
++      |         
++      |  endcase
++      |  end // always
        |
        |  /* Drive the output. */
-       |  assign rd = result;
+-      |  assign rd = result;
++      |  assign rd = result; 
+       |
+       |endmodule
+      """.stripMargin)

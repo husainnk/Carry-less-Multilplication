@@ -1,0 +1,365 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A0	asm/saes32_c0.h	70;"	d
+A1	asm/saes32_c0.h	71;"	d
+A2	asm/saes32_c0.h	72;"	d
+A3	asm/saes32_c0.h	73;"	d
+A4	asm/saes32_c0.h	74;"	d
+A5	asm/saes32_c0.h	75;"	d
+A6	asm/saes32_c0.h	76;"	d
+A7	asm/saes32_c0.h	77;"	d
+AES128_RK_WORDS	aes_wrap.h	19;"	d
+AES128_RK_WORDS	asm/saes32_wrap.h	19;"	d
+AES128_ROUNDS	aes_wrap.h	14;"	d
+AES128_ROUNDS	asm/saes32_wrap.h	14;"	d
+AES192_RK_WORDS	aes_wrap.h	20;"	d
+AES192_RK_WORDS	asm/saes32_wrap.h	20;"	d
+AES192_ROUNDS	aes_wrap.h	15;"	d
+AES192_ROUNDS	asm/saes32_wrap.h	15;"	d
+AES256_RK_WORDS	aes_wrap.h	21;"	d
+AES256_RK_WORDS	asm/saes32_wrap.h	21;"	d
+AES256_ROUNDS	aes_wrap.h	16;"	d
+AES256_ROUNDS	asm/saes32_wrap.h	16;"	d
+BIN	Makefile	/^BIN		= xtest$/;"	m
+CC	Makefile	/^CC		= gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS	= -Wall -Wextra -Wshadow -fsanitize=address,undefined -O2 -g$/;"	m
+CSRC	Makefile	/^CSRC	= $(wildcard *.c)$/;"	m
+GP	asm/saes32_c0.h	63;"	d
+GREV_BE32	rv_endian.h	13;"	d
+GREV_BE32	rv_endian.h	16;"	d
+GREV_BE64	rv_endian.h	22;"	d
+GREV_BE64	rv_endian.h	25;"	d
+HDL	hdl/Makefile	/^HDL		= 	$(wildcard *.v)$/;"	m
+NO_SHIFTRED	gcm_rv32b_gfmul.c	11;"	d	file:
+OBJS	Makefile	/^OBJS	= $(CSRC:.c=.o)$/;"	m
+RA	asm/saes32_c0.h	61;"	d
+S0	asm/saes32_c0.h	68;"	d
+S1	asm/saes32_c0.h	69;"	d
+S10	asm/saes32_c0.h	86;"	d
+S11	asm/saes32_c0.h	87;"	d
+S2	asm/saes32_c0.h	78;"	d
+S3	asm/saes32_c0.h	79;"	d
+S4	asm/saes32_c0.h	80;"	d
+S5	asm/saes32_c0.h	81;"	d
+S6	asm/saes32_c0.h	82;"	d
+S7	asm/saes32_c0.h	83;"	d
+S8	asm/saes32_c0.h	84;"	d
+S9	asm/saes32_c0.h	85;"	d
+SAES32_DECS	saes32.c	15;"	d	file:
+SAES32_DECSM	saes32.c	14;"	d	file:
+SAES32_DECSM_FN	asm/saes32_c0.h	20;"	d
+SAES32_DECS_FN	asm/saes32_c0.h	21;"	d
+SAES32_ENCS	saes32.c	13;"	d	file:
+SAES32_ENCSM	saes32.c	12;"	d	file:
+SAES32_ENCSM_FN	asm/saes32_c0.h	18;"	d
+SAES32_ENCS_FN	asm/saes32_c0.h	19;"	d
+SAES64_DEC_ROUND	aes_saes64.c	213;"	d	file:
+SAES64_ENC_ROUND	aes_saes64.c	18;"	d	file:
+SAES64_KEY128_STEP	aes_saes64.c	103;"	d	file:
+SAES64_KEY192_STEP	aes_saes64.c	134;"	d	file:
+SAES64_KEY256_STEP	aes_saes64.c	171;"	d	file:
+SAES64_OTF128A	aes_otf_saes64.c	16;"	d	file:
+SAES64_OTF128B	aes_otf_saes64.c	25;"	d	file:
+SAES64_OTF192A	aes_otf_saes64.c	79;"	d	file:
+SAES64_OTF192B	aes_otf_saes64.c	85;"	d	file:
+SAES64_OTF192C	aes_otf_saes64.c	92;"	d	file:
+SAES64_OTF192K	aes_otf_saes64.c	73;"	d	file:
+SAES64_OTF256A	aes_otf_saes64.c	142;"	d	file:
+SAES64_OTF256B	aes_otf_saes64.c	151;"	d	file:
+SIM	hdl/Makefile	/^SIM		=	sim.vvp$/;"	m
+SM4_RK_WORDS	asm/sm4_encdec.h	16;"	d
+SM4_RK_WORDS	sm4_wrap.h	16;"	d
+SP	asm/saes32_c0.h	62;"	d
+SSM4_ED	saes32.c	16;"	d	file:
+SSM4_ED_FN	asm/saes32_c0.h	22;"	d
+SSM4_ED_X4	sm4_ssm4.c	13;"	d	file:
+SSM4_KS	saes32.c	17;"	d	file:
+SSM4_KS_FN	asm/saes32_c0.h	23;"	d
+SSM4_KS_X4	sm4_ssm4.c	22;"	d	file:
+T0	asm/saes32_c0.h	65;"	d
+T1	asm/saes32_c0.h	66;"	d
+T2	asm/saes32_c0.h	67;"	d
+T3	asm/saes32_c0.h	88;"	d
+T4	asm/saes32_c0.h	89;"	d
+T5	asm/saes32_c0.h	90;"	d
+T6	asm/saes32_c0.h	91;"	d
+TP	asm/saes32_c0.h	64;"	d
+X0	asm/saes32_c0.h	60;"	d
+_AES_OTF_SAES64_H_	aes_otf_saes64.h	9;"	d
+_AES_SAES32_H_	aes_saes32.h	8;"	d
+_AES_SAES64_H_	aes_saes64.h	8;"	d
+_AES_WRAP_H_	aes_wrap.h	9;"	d
+_AES_WRAP_H_	asm/saes32_wrap.h	8;"	d
+_BITMANIP_H_	bitmanip.h	9;"	d
+_GCM_GFMUL_H_	gcm_gfmul.h	8;"	d
+_GCM_WRAP_H_	gcm_wrap.h	10;"	d
+_RV_ENDIAN_H_	rv_endian.h	8;"	d
+_SAES32_C0_H_	asm/saes32_c0.h	8;"	d
+_SAES32_H_	saes32.h	8;"	d
+_SAES64_H_	saes64.h	8;"	d
+_SBOXES_H_	sboxes.h	8;"	d
+_SM4_ENCDEC_H_	asm/sm4_encdec.h	11;"	d
+_SM4_WRAP_H_	sm4_wrap.h	11;"	d
+_TEST_HEX_H_	test_hex.h	8;"	d
+aes128_dec_ecb	aes_wrap.c	/^void (*aes128_dec_ecb)(uint8_t pt[16], const uint8_t ct[16],$/;"	v
+aes128_dec_ecb	asm/saes32_wrap.h	50;"	d
+aes128_dec_ecb_saes32	aes_saes32.c	/^void aes128_dec_ecb_saes32(uint8_t pt[16], const uint8_t ct[16],$/;"	f
+aes128_dec_ecb_saes64	aes_saes64.c	/^void aes128_dec_ecb_saes64(uint8_t pt[16], const uint8_t ct[16],$/;"	f
+aes128_dec_key	aes_wrap.c	/^void (*aes128_dec_key)(uint32_t rk[AES128_RK_WORDS],$/;"	v
+aes128_dec_key	asm/saes32_dec.S	/^aes128_dec_key:$/;"	l
+aes128_dec_key_saes32	aes_saes32.c	/^void aes128_dec_key_saes32(uint32_t rk[44], const uint8_t key[16])$/;"	f
+aes128_dec_key_saes64	aes_saes64.c	/^void aes128_dec_key_saes64(uint32_t rk[44], const uint8_t key[16])$/;"	f
+aes128_dec_vfy_gcm	gcm_wrap.c	/^int aes128_dec_vfy_gcm(uint8_t * m, const uint8_t * c, size_t clen,$/;"	f
+aes128_enc_ecb	aes_wrap.c	/^void (*aes128_enc_ecb)(uint8_t ct[16], const uint8_t pt[16],$/;"	v
+aes128_enc_ecb	asm/saes32_wrap.h	35;"	d
+aes128_enc_ecb_saes32	aes_saes32.c	/^void aes128_enc_ecb_saes32(uint8_t ct[16], const uint8_t pt[16],$/;"	f
+aes128_enc_ecb_saes64	aes_saes64.c	/^void aes128_enc_ecb_saes64(uint8_t ct[16], const uint8_t pt[16],$/;"	f
+aes128_enc_gcm	gcm_wrap.c	/^void aes128_enc_gcm(uint8_t * c, const uint8_t * m, size_t mlen,$/;"	f
+aes128_enc_key	aes_wrap.c	/^void (*aes128_enc_key)(uint32_t rk[AES128_RK_WORDS],$/;"	v
+aes128_enc_key	asm/saes32_enc.S	/^aes128_enc_key:$/;"	l
+aes128_enc_key_saes32	aes_saes32.c	/^void aes128_enc_key_saes32(uint32_t rk[44], const uint8_t key[16])$/;"	f
+aes128_enc_key_saes64	aes_saes64.c	/^void aes128_enc_key_saes64(uint32_t rk[44], const uint8_t key[16])$/;"	f
+aes128_enc_otf_saes64	aes_otf_saes64.c	/^void aes128_enc_otf_saes64(uint8_t ct[16], const uint8_t pt[16],$/;"	f
+aes192_dec_ecb	aes_wrap.c	/^void (*aes192_dec_ecb)(uint8_t pt[16], const uint8_t ct[16],$/;"	v
+aes192_dec_ecb	asm/saes32_wrap.h	51;"	d
+aes192_dec_ecb_saes32	aes_saes32.c	/^void aes192_dec_ecb_saes32(uint8_t pt[16], const uint8_t ct[16],$/;"	f
+aes192_dec_ecb_saes64	aes_saes64.c	/^void aes192_dec_ecb_saes64(uint8_t pt[16], const uint8_t ct[16],$/;"	f
+aes192_dec_key	aes_wrap.c	/^void (*aes192_dec_key)(uint32_t rk[AES192_RK_WORDS],$/;"	v
+aes192_dec_key	asm/saes32_dec.S	/^aes192_dec_key:$/;"	l
+aes192_dec_key_saes32	aes_saes32.c	/^void aes192_dec_key_saes32(uint32_t rk[52], const uint8_t key[24])$/;"	f
+aes192_dec_key_saes64	aes_saes64.c	/^void aes192_dec_key_saes64(uint32_t rk[52], const uint8_t key[24])$/;"	f
+aes192_dec_vfy_gcm	gcm_wrap.c	/^int aes192_dec_vfy_gcm(uint8_t * m, const uint8_t * c, size_t clen,$/;"	f
+aes192_enc_ecb	aes_wrap.c	/^void (*aes192_enc_ecb)(uint8_t ct[16], const uint8_t pt[16],$/;"	v
+aes192_enc_ecb	asm/saes32_wrap.h	36;"	d
+aes192_enc_ecb_saes32	aes_saes32.c	/^void aes192_enc_ecb_saes32(uint8_t ct[16], const uint8_t pt[16],$/;"	f
+aes192_enc_ecb_saes64	aes_saes64.c	/^void aes192_enc_ecb_saes64(uint8_t ct[16], const uint8_t pt[16],$/;"	f
+aes192_enc_gcm	gcm_wrap.c	/^void aes192_enc_gcm(uint8_t * c, const uint8_t * m, size_t mlen,$/;"	f
+aes192_enc_key	aes_wrap.c	/^void (*aes192_enc_key)(uint32_t rk[AES192_RK_WORDS],$/;"	v
+aes192_enc_key	asm/saes32_enc.S	/^aes192_enc_key:$/;"	l
+aes192_enc_key_saes32	aes_saes32.c	/^void aes192_enc_key_saes32(uint32_t rk[52], const uint8_t key[24])$/;"	f
+aes192_enc_key_saes64	aes_saes64.c	/^void aes192_enc_key_saes64(uint32_t rk[52], const uint8_t key[24])$/;"	f
+aes192_enc_otf_saes64	aes_otf_saes64.c	/^void aes192_enc_otf_saes64(uint8_t ct[16], const uint8_t pt[16],$/;"	f
+aes256_dec_ecb	aes_wrap.c	/^void (*aes256_dec_ecb)(uint8_t pt[16], const uint8_t ct[16],$/;"	v
+aes256_dec_ecb	asm/saes32_wrap.h	52;"	d
+aes256_dec_ecb_saes32	aes_saes32.c	/^void aes256_dec_ecb_saes32(uint8_t pt[16], const uint8_t ct[16],$/;"	f
+aes256_dec_ecb_saes64	aes_saes64.c	/^void aes256_dec_ecb_saes64(uint8_t pt[16], const uint8_t ct[16],$/;"	f
+aes256_dec_key	aes_wrap.c	/^void (*aes256_dec_key)(uint32_t rk[AES256_RK_WORDS],$/;"	v
+aes256_dec_key	asm/saes32_dec.S	/^aes256_dec_key:$/;"	l
+aes256_dec_key_saes32	aes_saes32.c	/^void aes256_dec_key_saes32(uint32_t rk[60], const uint8_t key[32])$/;"	f
+aes256_dec_key_saes64	aes_saes64.c	/^void aes256_dec_key_saes64(uint32_t rk[60], const uint8_t key[32])$/;"	f
+aes256_dec_vfy_gcm	gcm_wrap.c	/^int aes256_dec_vfy_gcm(uint8_t * m, const uint8_t * c, size_t clen,$/;"	f
+aes256_enc_ecb	aes_wrap.c	/^void (*aes256_enc_ecb)(uint8_t ct[16], const uint8_t pt[16],$/;"	v
+aes256_enc_ecb	asm/saes32_wrap.h	37;"	d
+aes256_enc_ecb_saes32	aes_saes32.c	/^void aes256_enc_ecb_saes32(uint8_t ct[16], const uint8_t pt[16],$/;"	f
+aes256_enc_ecb_saes64	aes_saes64.c	/^void aes256_enc_ecb_saes64(uint8_t ct[16], const uint8_t pt[16],$/;"	f
+aes256_enc_gcm	gcm_wrap.c	/^void aes256_enc_gcm(uint8_t * c, const uint8_t * m, size_t mlen,$/;"	f
+aes256_enc_key	aes_wrap.c	/^void (*aes256_enc_key)(uint32_t rk[AES256_RK_WORDS],$/;"	v
+aes256_enc_key	asm/saes32_enc.S	/^aes256_enc_key:$/;"	l
+aes256_enc_key_saes32	aes_saes32.c	/^void aes256_enc_key_saes32(uint32_t rk[60], const uint8_t key[32])$/;"	f
+aes256_enc_key_saes64	aes_saes64.c	/^void aes256_enc_key_saes64(uint32_t rk[60], const uint8_t key[32])$/;"	f
+aes256_enc_otf_saes64	aes_otf_saes64.c	/^void aes256_enc_otf_saes64(uint8_t ct[16], const uint8_t pt[16],$/;"	f
+aes_32	hdl/saes32.v	/^	wire [31:0] aes_32;$/;"	n
+aes_dec_rounds	asm/saes32_dec.S	/^aes_dec_rounds:$/;"	l
+aes_dec_rounds_saes32	aes_saes32.c	/^void aes_dec_rounds_saes32(uint8_t pt[16], const uint8_t ct[16],$/;"	f
+aes_dec_rounds_saes64	aes_saes64.c	/^void aes_dec_rounds_saes64(uint8_t pt[16], const uint8_t ct[16],$/;"	f
+aes_enc_rounds	asm/saes32_enc.S	/^aes_enc_rounds:$/;"	l
+aes_enc_rounds_saes32	aes_saes32.c	/^void aes_enc_rounds_saes32(uint8_t ct[16], const uint8_t pt[16],$/;"	f
+aes_enc_rounds_saes64	aes_saes64.c	/^void aes_enc_rounds_saes64(uint8_t ct[16], const uint8_t pt[16],$/;"	f
+aes_gcm_body	gcm_wrap.c	/^static void aes_gcm_body(uint8_t * dst, uint8_t tag[16],$/;"	f	file:
+aes_gcm_vfy	gcm_wrap.c	/^static int aes_gcm_vfy(uint8_t * m,$/;"	f	file:
+aes_isbox	sboxes.c	/^const uint8_t aes_isbox[256] = {$/;"	v
+aes_rcon	sboxes.c	/^const uint8_t aes_rcon[] = {$/;"	v
+aes_sbox	hdl/sboxes.v	/^module aes_sbox( output [7:0] fx, input [7:0] in );$/;"	m
+aes_sbox	sboxes.c	/^const uint8_t aes_sbox[256] = {$/;"	v
+aes_t	hdl/saes32.v	/^module aes_t( output [31:0] out, input [7:0] in, input f );$/;"	m
+aes_xtime	hdl/saes32.v	/^module aes_xtime( output [7:0] out, input [7:0] in );$/;"	m
+aes_xtime	saes32.c	/^static inline uint8_t aes_xtime(uint8_t x)$/;"	f	file:
+aes_xtime	saes64.c	/^static inline uint8_t aes_xtime(uint8_t x)$/;"	f	file:
+aesi_32	hdl/saes32.v	/^	wire [31:0] aesi_32;$/;"	n
+aesi_sbox	hdl/sboxes.v	/^module aesi_sbox( output [7:0] fx, input [7:0] in );$/;"	m
+aesi_t	hdl/saes32.v	/^module aesi_t( output [31:0] out, input [7:0] in, input f );$/;"	m
+b	gcm_gfmul.h	/^	uint8_t b[16];$/;"	m	union:__anon1
+box	hdl/saes32_tb.v	/^	wire [7:0] box;$/;"	n
+chkhex	test_hex.c	/^int chkhex(const char *lab, const void *data, size_t len, const char *ref)$/;"	f
+chkret	test_hex.c	/^int chkret(const char *lab, int want, int have)$/;"	f
+ciph_undef	aes_wrap.c	/^static void ciph_undef(uint8_t * d, const uint8_t * s, const uint32_t * rk)$/;"	f	file:
+clk	hdl/saes32_tb.v	/^	reg clk = 1;$/;"	r
+cnt	hdl/saes32_tb.v	/^	reg [31:0] cnt = 0;$/;"	r
+cust0r	asm/saes32_c0.h	/^	cust0r	0, \\fn, \\rd, \\rs1, \\rs2$/;"	v
+d	gcm_gfmul.h	/^	uint64_t d[2];$/;"	m	union:__anon1
+fn	asm/saes32_c0.h	/^	cust0r	0, \\fn, \\rd, \\rs1, \\rs2$/;"	v
+fn	hdl/saes32_tb.v	/^	reg [4:0]	fn	= 0;$/;"	r
+fn7	asm/saes32_c0.h	/^.macro cust0r fn3, fn7, rd, rs1, rs2$/;"	v
+gcm_encrypt	doc/test_gcm_ossl.c	/^static int gcm_encrypt(uint8_t * plaintext, int plaintext_len,$/;"	f	file:
+ge	hdl/yoparse.py	/^				ge = ge + float(lv[1]) * wt[lv[0]]$/;"	v
+ge	hdl/yoparse.py	/^			ge = 0.0$/;"	v
+ge	hdl/yoparse.py	/^	ge = 0.0$/;"	v
+get32u_be	rv_endian.h	/^static inline uint32_t get32u_be(const uint8_t * v)$/;"	f
+get32u_le	rv_endian.h	/^static inline uint32_t get32u_le(const uint8_t * v)$/;"	f
+get64u_be	rv_endian.h	/^static inline uint64_t get64u_be(const uint8_t * v)$/;"	f
+get64u_le	rv_endian.h	/^static inline uint64_t get64u_le(const uint8_t * v)$/;"	f
+gf128_t	gcm_gfmul.h	/^} gf128_t;$/;"	t	typeref:union:__anon1
+ghash_mul	gcm_wrap.c	/^void (*ghash_mul)(gf128_t *, const gf128_t *, const gf128_t *) =$/;"	v
+ghash_rev	gcm_wrap.c	/^void (*ghash_rev)(gf128_t *) = rv64_ghash_rev;$/;"	v
+hexdigit	test_hex.c	/^static int hexdigit(char ch)$/;"	f	file:
+hexvar	doc/test_gcm_ossl.c	/^static void hexvar(const uint8_t * v, size_t len, const char *lab)$/;"	f	file:
+input	hdl/saes32.v	/^	input	[31:0]	rs1,				\/\/	input register 1$/;"	p
+input	hdl/saes32.v	/^	input	[4:0]	fn					\/\/	5-bit function specifier$/;"	p
+key_undef	aes_wrap.c	/^static void key_undef(uint32_t * rk, const uint8_t * key)$/;"	f	file:
+li	hdl/yoparse.py	/^		li = li + 1$/;"	v
+li	hdl/yoparse.py	/^	li = 0$/;"	v
+ll	hdl/yoparse.py	/^		ll = len(lv)$/;"	v
+lns	hdl/yoparse.py	/^		lns = f.readlines()$/;"	v
+ltp	hdl/yoparse.py	/^			ltp = 0$/;"	v
+ltp	hdl/yoparse.py	/^			ltp = int(tmp[:-2])$/;"	v
+ltp	hdl/yoparse.py	/^	ltp = 0$/;"	v
+lv	hdl/yoparse.py	/^		lv = lin.split();$/;"	v
+main	test_main.c	/^int main(int argc, char **argv)$/;"	f
+prthex	test_hex.c	/^void prthex(const char *lab, const void *data, size_t len)$/;"	f
+put32u_be	rv_endian.h	/^static inline void put32u_be(uint8_t * v, uint32_t x)$/;"	f
+put32u_le	rv_endian.h	/^static inline void put32u_le(uint8_t * v, uint32_t x)$/;"	f
+put64u_be	rv_endian.h	/^static inline void put64u_be(uint8_t * v, uint64_t x)$/;"	f
+put64u_le	rv_endian.h	/^static inline void put64u_le(uint8_t * v, uint64_t x)$/;"	f
+rd	asm/saes32_c0.h	/^	cust0r	0, \\fn, \\rd, \\rs1, \\rs2$/;"	v
+rd	asm/saes32_c0.h	/^	saes32	\\rd, \\rs1, \\rs2, ((SAES32_DECSM_FN << 2) | (\\bs))$/;"	v
+rd	asm/saes32_c0.h	/^	saes32	\\rd, \\rs1, \\rs2, ((SAES32_DECS_FN << 2) | (\\bs))$/;"	v
+rd	asm/saes32_c0.h	/^	saes32	\\rd, \\rs1, \\rs2, ((SAES32_ENCSM_FN << 2) | (\\bs))$/;"	v
+rd	asm/saes32_c0.h	/^	saes32	\\rd, \\rs1, \\rs2, ((SAES32_ENCS_FN << 2) | (\\bs))$/;"	v
+rd	asm/saes32_c0.h	/^	saes32	\\rd, \\rs1, \\rs2, ((SSM4_ED_FN << 2) | (\\bs))$/;"	v
+rd	asm/saes32_c0.h	/^	saes32	\\rd, \\rs1, \\rs2, ((SSM4_KS_FN << 2) | (\\bs))$/;"	v
+rd	asm/saes32_c0.h	/^.macro cust0r fn3, fn7, rd, rs1, rs2$/;"	v
+rd	hdl/saes32.v	/^	output	[31:0]	rd,					\/\/	output register (wire!)$/;"	p
+rd	hdl/saes32_tb.v	/^	wire [31:0] rd;$/;"	n
+readhex	test_hex.c	/^size_t readhex(uint8_t * buf, size_t maxbytes, const char *str)$/;"	f
+rndvar	doc/test_gcm_ossl.c	/^static void rndvar(uint8_t * v, size_t len)$/;"	f	file:
+rol32	rv_endian.h	/^static inline uint32_t rol32(uint32_t x, uint32_t n)$/;"	f
+rs1	asm/saes32_c0.h	/^	.macro	saes32			rd, rs1, rs2, fn$/;"	v
+rs1	asm/saes32_c0.h	/^	.macro	saes32_decs		rd, rs1, rs2, bs$/;"	v
+rs1	asm/saes32_c0.h	/^	.macro	saes32_decsm	rd, rs1, rs2, bs$/;"	v
+rs1	asm/saes32_c0.h	/^	.macro	saes32_encs		rd, rs1, rs2, bs$/;"	v
+rs1	asm/saes32_c0.h	/^	.macro	saes32_encsm	rd, rs1, rs2, bs$/;"	v
+rs1	asm/saes32_c0.h	/^	.macro	ssm4_ed			rd, rs1, rs2, bs$/;"	v
+rs1	asm/saes32_c0.h	/^	.macro	ssm4_ks			rd, rs1, rs2, bs$/;"	v
+rs1	asm/saes32_c0.h	/^	cust0r	0, \\fn, \\rd, \\rs1, \\rs2$/;"	v
+rs1	asm/saes32_c0.h	/^	saes32	\\rd, \\rs1, \\rs2, ((SAES32_DECSM_FN << 2) | (\\bs))$/;"	v
+rs1	asm/saes32_c0.h	/^	saes32	\\rd, \\rs1, \\rs2, ((SAES32_DECS_FN << 2) | (\\bs))$/;"	v
+rs1	asm/saes32_c0.h	/^	saes32	\\rd, \\rs1, \\rs2, ((SAES32_ENCSM_FN << 2) | (\\bs))$/;"	v
+rs1	asm/saes32_c0.h	/^	saes32	\\rd, \\rs1, \\rs2, ((SAES32_ENCS_FN << 2) | (\\bs))$/;"	v
+rs1	asm/saes32_c0.h	/^	saes32	\\rd, \\rs1, \\rs2, ((SSM4_ED_FN << 2) | (\\bs))$/;"	v
+rs1	asm/saes32_c0.h	/^	saes32	\\rd, \\rs1, \\rs2, ((SSM4_KS_FN << 2) | (\\bs))$/;"	v
+rs1	asm/saes32_c0.h	/^.macro cust0r fn3, fn7, rd, rs1, rs2$/;"	v
+rs1	hdl/saes32_tb.v	/^	reg [31:0]	rs1 = 32'h00000000;$/;"	r
+rs2	asm/saes32_c0.h	/^	.macro	saes32			rd, rs1, rs2, fn$/;"	v
+rs2	asm/saes32_c0.h	/^	.macro	saes32_decs		rd, rs1, rs2, bs$/;"	v
+rs2	asm/saes32_c0.h	/^	.macro	saes32_decsm	rd, rs1, rs2, bs$/;"	v
+rs2	asm/saes32_c0.h	/^	.macro	saes32_encs		rd, rs1, rs2, bs$/;"	v
+rs2	asm/saes32_c0.h	/^	.macro	saes32_encsm	rd, rs1, rs2, bs$/;"	v
+rs2	asm/saes32_c0.h	/^	.macro	ssm4_ed			rd, rs1, rs2, bs$/;"	v
+rs2	asm/saes32_c0.h	/^	.macro	ssm4_ks			rd, rs1, rs2, bs$/;"	v
+rs2	asm/saes32_c0.h	/^	saes32	\\rd, \\rs1, \\rs2, ((SAES32_DECSM_FN << 2) | (\\bs))$/;"	v
+rs2	asm/saes32_c0.h	/^	saes32	\\rd, \\rs1, \\rs2, ((SAES32_DECS_FN << 2) | (\\bs))$/;"	v
+rs2	asm/saes32_c0.h	/^	saes32	\\rd, \\rs1, \\rs2, ((SAES32_ENCSM_FN << 2) | (\\bs))$/;"	v
+rs2	asm/saes32_c0.h	/^	saes32	\\rd, \\rs1, \\rs2, ((SAES32_ENCS_FN << 2) | (\\bs))$/;"	v
+rs2	asm/saes32_c0.h	/^	saes32	\\rd, \\rs1, \\rs2, ((SSM4_ED_FN << 2) | (\\bs))$/;"	v
+rs2	asm/saes32_c0.h	/^	saes32	\\rd, \\rs1, \\rs2, ((SSM4_KS_FN << 2) | (\\bs))$/;"	v
+rs2	hdl/saes32.v	/^	input	[31:0]	rs2,				\/\/	input register 2$/;"	p
+rs2	hdl/saes32_tb.v	/^	reg [31:0]	rs2 = 32'h00000000;$/;"	r
+rv32_ghash_mul	gcm_rv32b_gfmul.c	/^void rv32_ghash_mul(gf128_t * z, const gf128_t * x, const gf128_t * h)$/;"	f
+rv32_ghash_mul_kar	gcm_rv32b_gfmul.c	/^void rv32_ghash_mul_kar(gf128_t * z, const gf128_t * x, const gf128_t * h)$/;"	f
+rv32_ghash_rev	gcm_rv32b_gfmul.c	/^void rv32_ghash_rev(gf128_t * z)$/;"	f
+rv32b_andn	bitmanip.c	/^uint64_t rv32b_andn(uint32_t rs1, uint32_t rs2)$/;"	f
+rv32b_clmul	bitmanip.c	/^uint32_t rv32b_clmul(uint32_t rs1, uint32_t rs2)$/;"	f
+rv32b_clmulh	bitmanip.c	/^uint32_t rv32b_clmulh(uint32_t rs1, uint32_t rs2)$/;"	f
+rv32b_clmulr	bitmanip.c	/^uint32_t rv32b_clmulr(uint32_t rs1, uint32_t rs2)$/;"	f
+rv32b_grev	bitmanip.c	/^uint32_t rv32b_grev(uint32_t rs1, uint32_t rs2)$/;"	f
+rv32b_ror	bitmanip.c	/^uint32_t rv32b_ror(uint32_t rs1, uint32_t rs2)$/;"	f
+rv32b_shfl	bitmanip.c	/^uint32_t rv32b_shfl(uint32_t rs1, uint32_t rs2)$/;"	f
+rv32b_unshfl	bitmanip.c	/^uint32_t rv32b_unshfl(uint32_t rs1, uint32_t rs2)$/;"	f
+rv64_ghash_mul	gcm_rv64b_gfmul.c	/^void rv64_ghash_mul(gf128_t * z, const gf128_t * x, const gf128_t * h)$/;"	f
+rv64_ghash_rev	gcm_rv64b_gfmul.c	/^void rv64_ghash_rev(gf128_t * z)$/;"	f
+rv64b_andn	bitmanip.c	/^uint64_t rv64b_andn(uint64_t rs1, uint64_t rs2)$/;"	f
+rv64b_clmul	bitmanip.c	/^uint64_t rv64b_clmul(uint64_t rs1, uint64_t rs2)$/;"	f
+rv64b_clmulh	bitmanip.c	/^uint64_t rv64b_clmulh(uint64_t rs1, uint64_t rs2)$/;"	f
+rv64b_clmulr	bitmanip.c	/^uint64_t rv64b_clmulr(uint64_t rs1, uint64_t rs2)$/;"	f
+rv64b_grev	bitmanip.c	/^uint64_t rv64b_grev(uint64_t rs1, uint64_t rs2)$/;"	f
+rv64b_ror	bitmanip.c	/^uint64_t rv64b_ror(uint64_t rs1, uint64_t rs2)$/;"	f
+rv64b_shfl	bitmanip.c	/^uint64_t rv64b_shfl(uint64_t rs1, uint64_t rs2)$/;"	f
+rv64b_unshfl	bitmanip.c	/^uint64_t rv64b_unshfl(uint64_t rs1, uint64_t rs2)$/;"	f
+saes32	hdl/saes32.v	/^module saes32($/;"	m
+saes32	saes32.c	/^uint32_t saes32(uint32_t rs1, uint32_t rs2, int fn)$/;"	f
+saes32_dec_invmc	aes_saes32.c	/^void saes32_dec_invmc(uint32_t * v, size_t len)$/;"	f
+saes32_decs	saes32.c	/^uint32_t saes32_decs(uint32_t rs1, uint32_t rs2, int bs)$/;"	f
+saes32_decsm	saes32.c	/^uint32_t saes32_decsm(uint32_t rs1, uint32_t rs2, int bs)$/;"	f
+saes32_encs	saes32.c	/^uint32_t saes32_encs(uint32_t rs1, uint32_t rs2, int bs)$/;"	f
+saes32_encsm	saes32.c	/^uint32_t saes32_encsm(uint32_t rs1, uint32_t rs2, int bs)$/;"	f
+saes32_tb	hdl/saes32_tb.v	/^module saes32_tb;$/;"	m
+saes64_dec_invmc	aes_saes64.c	/^static inline void saes64_dec_invmc(uint64_t * v, size_t len)$/;"	f	file:
+saes64_decs	saes64.c	/^uint64_t saes64_decs(uint64_t rs1, uint64_t rs2)$/;"	f
+saes64_decsm	saes64.c	/^uint64_t saes64_decsm(uint64_t rs1, uint64_t rs2)$/;"	f
+saes64_encs	saes64.c	/^uint64_t saes64_encs(uint64_t rs1, uint64_t rs2)$/;"	f
+saes64_encsm	saes64.c	/^uint64_t saes64_encsm(uint64_t rs1, uint64_t rs2)$/;"	f
+saes64_imc32	saes64.c	/^static uint32_t saes64_imc32(uint32_t x)$/;"	f	file:
+saes64_imc8	saes64.c	/^static inline uint32_t saes64_imc8(uint32_t x)$/;"	f	file:
+saes64_imix	saes64.c	/^uint64_t saes64_imix(uint64_t rs1)$/;"	f
+saes64_ks1	saes64.c	/^uint64_t saes64_ks1(uint64_t rs1, uint8_t i)$/;"	f
+saes64_ks2	saes64.c	/^uint64_t saes64_ks2(uint64_t rs1, uint64_t rs2)$/;"	f
+saes64_mc32	saes64.c	/^static uint32_t saes64_mc32(uint32_t x)$/;"	f	file:
+saes64_mc8	saes64.c	/^static inline uint32_t saes64_mc8(uint32_t x)$/;"	f	file:
+sbox_aes_out	hdl/sboxes.v	/^module sbox_aes_out( output [7:0] y, input [17:0] x);$/;"	m
+sbox_aes_top	hdl/sboxes.v	/^module sbox_aes_top( output [20:0] y, input [7:0] x);$/;"	m
+sbox_aesi_out	hdl/sboxes.v	/^module sbox_aesi_out( output [7:0] y, input [17:0] x);$/;"	m
+sbox_aesi_top	hdl/sboxes.v	/^module sbox_aesi_top( output [20:0] y, input [7:0] x);$/;"	m
+sbox_inv_mid	hdl/sboxes.v	/^module sbox_inv_mid( output [17:0] y, input [20:0] x );$/;"	m
+sbox_sm4_out	hdl/sboxes.v	/^module sbox_sm4_out( output [7:0] y, input [17:0] x);$/;"	m
+sbox_sm4_top	hdl/sboxes.v	/^module sbox_sm4_top( output [20:0] y, input [7:0] x);$/;"	m
+shuffle32_stage	bitmanip.c	/^static inline uint32_t shuffle32_stage(uint32_t src, uint32_t ml,$/;"	f	file:
+shuffle64_stage	bitmanip.c	/^static inline uint64_t shuffle64_stage(uint64_t src, uint64_t ml,$/;"	f	file:
+sm4_32	hdl/saes32.v	/^	wire [31:0] sm4_32;$/;"	n
+sm4_dec_ecb	asm/sm4_encdec.h	30;"	d
+sm4_dec_ecb	sm4_wrap.h	30;"	d
+sm4_dec_key	asm/sm4_encdec.S	/^sm4_dec_key:$/;"	l
+sm4_dec_key	sm4_ssm4.c	/^void sm4_dec_key(uint32_t rk[SM4_RK_WORDS], const uint8_t key[16])$/;"	f
+sm4_enc_ecb	asm/sm4_encdec.h	29;"	d
+sm4_enc_ecb	sm4_wrap.h	29;"	d
+sm4_enc_key	asm/sm4_encdec.S	/^sm4_enc_key:$/;"	l
+sm4_enc_key	sm4_ssm4.c	/^void sm4_enc_key(uint32_t rk[SM4_RK_WORDS], const uint8_t key[16])$/;"	f
+sm4_encdec	asm/sm4_encdec.S	/^sm4_encdec:$/;"	l
+sm4_encdec	sm4_ssm4.c	/^void sm4_encdec(uint8_t out[16], const uint8_t in[16],$/;"	f
+sm4_sbox	hdl/sboxes.v	/^module sm4_sbox( output [7:0] fx, input [7:0] in );$/;"	m
+sm4_sbox	sboxes.c	/^const uint8_t sm4_sbox[256] = {$/;"	v
+sm4_t	hdl/saes32.v	/^module sm4_t( output [31:0] out, input [7:0] in, input f );$/;"	m
+ssm4_ed	saes32.c	/^uint32_t ssm4_ed(uint32_t rs1, uint32_t rs2, int bs)$/;"	f
+ssm4_ks	saes32.c	/^uint32_t ssm4_ks(uint32_t rs1, uint32_t rs2, int bs)$/;"	f
+t	hdl/sboxes.v	/^	wire [29:0] t;$/;"	n
+t	hdl/sboxes.v	/^	wire [45:0] t;$/;"	n
+t	hdl/sboxes.v	/^	wire [4:0] t;$/;"	n
+t	hdl/sboxes.v	/^	wire [5:0] t;$/;"	n
+t	hdl/sboxes.v	/^	wire [6:0] t;$/;"	n
+t1	hdl/sboxes.v	/^	wire [20:0] t1;$/;"	n
+t2	hdl/sboxes.v	/^	wire [17:0] t2;$/;"	n
+targ	hdl/yoparse.py	/^			targ = lv[1]$/;"	v
+targ	hdl/yoparse.py	/^	targ = ""$/;"	v
+tb	hdl/yoparse.py	/^	tb = {}$/;"	v
+test_aes	aes_test.c	/^int test_aes()$/;"	f
+test_gcm	gcm_test.c	/^int test_gcm()$/;"	f
+test_gcm_ossl	doc/test_gcm_ossl.c	/^int test_gcm_ossl()$/;"	f
+test_hwtb	test_main.c	/^int test_hwtb()$/;"	f
+test_sm4	sm4_test.c	/^int test_sm4()$/;"	f
+tmp	hdl/yoparse.py	/^			tmp = lv[5][8:]$/;"	v
+tr	hdl/yoparse.py	/^			tr = 0$/;"	v
+tr	hdl/yoparse.py	/^			tr = int(lv[4])$/;"	v
+tr	hdl/yoparse.py	/^	tr = 0$/;"	v
+w	gcm_gfmul.h	/^	uint32_t w[4];$/;"	m	union:__anon1
+wt	hdl/yoparse.py	/^wt = {}$/;"	v
+x	hdl/saes32.v	/^	wire [7:0] x =	fn[1:0] == 2'b00 ?	rs2[ 7: 0] :$/;"	n
+x	hdl/saes32.v	/^	wire [7:0] x;$/;"	n
+x2	hdl/saes32.v	/^	wire [7:0] x2;$/;"	n
+x4	hdl/saes32.v	/^	wire [7:0] x4;$/;"	n
+x8	hdl/saes32.v	/^	wire [7:0] x8;$/;"	n
+y	hdl/saes32.v	/^					fn[1:0] == 2'b01 ?	{ y[23: 0], y[31:24] } :$/;"	n
+y	hdl/saes32.v	/^	wire [31:0] y =$/;"	n
+z	hdl/saes32.v	/^	wire [31:0] z = fn[1:0] == 2'b00 ?	y :$/;"	n

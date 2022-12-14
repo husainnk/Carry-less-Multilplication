@@ -1,15 +1,18 @@
 
 
-Contents of the this Repo
+## Contents of this Repo
 
 1) Patch 
+
 	generators_rocket-chip--carry-less-in-scie.patch [ Changes in Rocket Core for CLMUL Support ]
+
 	riscv-binutils_clmul_support.patch [ Compiler Changes ]
 
 2) clmul.c  - Test file that executes clmul instruction on two operands. Contains both H/W and S/W implementation.
 
-3) AES_Examples - AES examples that uses. 
-	build.sh  - Run this program to compile AES test programs. Both H/W and S/W implementations will be created seperately. 
+3) AES_Examples - AES examples that uses new clmul instruction 
+
+	build.sh  - Run this script to compile AES test programs. Both H/W and S/W implementations will be created seperately. 
 
 
 

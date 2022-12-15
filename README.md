@@ -1,6 +1,9 @@
 
+## Project Report 
 
-## Contents of this Repo
+[Project_Report_Carry_Less_Multiplication](Project_Report_Carry_Less_Multiplication.pdf)
+
+## Contents of this project
 
 1) Patch 
 
